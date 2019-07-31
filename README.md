@@ -1,6 +1,8 @@
 # MCO Jelly Noodles
 MCO Jelly Noodles is a script to deal with the issue of inefficiency in the presentation of the booking table data for our facility managers working with the MCOnline Facility booking system.
 
+Current version: [3.0.3]
+
 ##  Installation
 As of now, the only 'permanent' way to install the script is to save the script directly into the browser.
 Currently the script can only be 'installed' in chrome(as far as we know), without implementing any third-party software or browser extensions. Testing has not been done on any other browsers.
@@ -45,3 +47,6 @@ Future developments will still be continued unless otherwise specified.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+
+[3.0.3]: https://github.com/Hantasmagoria/mcojn/blob/master/index.js
