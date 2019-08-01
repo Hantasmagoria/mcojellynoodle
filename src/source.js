@@ -38,9 +38,17 @@ function reinitializedate() {
   var lastday = lookatTimeOfWeek[1][0] + lookatTimeOfWeek[1][1];
   var currentday = st[0] + st[1];
 
-  if (currentday > lastday  || currentday < firstday){
-    alert("date selected not within the current week.")
-    return;
+  if (lastday > firstday){
+    if (currentday > lastday  || currentday < firstday){
+     alert("date selected not within the current week.")
+     return;
+    }
+  }
+  if (firstday > lastday){
+    if (currentday > firstday  || currentday < lastday){
+     alert("date selected not within the current week.")
+     return;
+    }
   }
 }
 
