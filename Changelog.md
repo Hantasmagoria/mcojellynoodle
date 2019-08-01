@@ -1,8 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [Version 3.0.4 - 1/8/2019 (Current)]
+###Fixed
+-alert error when picking date.
+>>upon picking a date that was in a week that included days of the next month, an alert pops up preventing the selection of date.
 
-## [Version 3.0.3 - 31/7/2019 (Current)]
+## Version 3.0.3
 ###Fixed
 -Retention of entire calendar when changing 'Facilitiy Name' dropdown.
 >>upon switching facilities using the filters on the left-side container, and then clicking on "Bookings", calendar was changed to the calendar values that were from the previous facility booking calendar.
@@ -43,4 +47,4 @@ All notable changes to this project will be documented in this file.
 ## Version 1
 >Let there be light.
 
-[Version 3.0.3 - 31/7/2019 (Current)]: https://github.com/Hantasmagoria/mcojn/blob/master/src/source.js
+[Version 3.0.4 - 1/8/2019 (Current)]: https://github.com/Hantasmagoria/mcojn/blob/master/src/source.js
