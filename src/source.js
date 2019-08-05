@@ -34,9 +34,9 @@ function reinitializedate() {
     year: 'numeric'
   });
   var lookatTimeOfWeek =  document.getElementById("txtdatetimeshow").textContent.split(" - ");
-  var firstday = lookatTimeOfWeek[0][0] + lookatTimeOfWeek[0][1];
-  var lastday = lookatTimeOfWeek[1][0] + lookatTimeOfWeek[1][1];
-  var currentday = st[0] + st[1];
+  var firstday = parseInt(lookatTimeOfWeek[0][0] + lookatTimeOfWeek[0][1]);
+  var lastday = parseInt(lookatTimeOfWeek[1][0] + lookatTimeOfWeek[1][1]);
+  var currentday = parseInt(st[0] + st[1]);
 
   if (lastday > firstday){
     if (currentday > lastday  || currentday < firstday){
