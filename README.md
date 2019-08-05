@@ -26,11 +26,15 @@ To use the script, the snippet has to be run. Open up the browser's console, and
 
 Upon loading the script, two buttons will appear above the calendar. 
 
+<img src="demo/jifwan 1.gif" alt="figure 1">
+
 >Pick a Date
 >>The First button, labelled "Pick a Date", has to be used first, to initialize the date used in the script. The "Bookings" button will not work otherwise. Upon clicking the button, an alert window will pop up on the page, asking for a date to be typed into the input box. Any date can be given, however only the date that is within the week that is shown in the calendar will be taken for the "Bookings" buton to work.
 
 >Bookings
 >>The Second button, labelled "Bookings", can be used at any point in time as long as the date is initialized using the "Pick a Date" button as mentioned above. The "Bookings" button, upon being clicked, will replace the entire calendar with the information of all the bookings on the date specified.
+
+<img src="demo/jifwan 2.gif" alt="figure 2">
 
 ## Usage(Alternative)
 Alternatively, copy the code from index.js and save it as the URL of a bookmark on your browser. Anytime you need to use it just run.
@@ -50,4 +54,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 
-[3.0.5]: https://github.com/Hantasmagoria/mcojn/blob/master/index.js
+[3.0.5]: index.js
+
