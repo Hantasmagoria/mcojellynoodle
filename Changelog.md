@@ -1,7 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Version 3.0.4 - 1/8/2019 (Current)]
+## [Version 3.0.5 - 5/8/2019 (current)]
+###Fixed
+-system not accepting proper date values.
+>>upon picking a date that was in a week that is supposed to be valid, an alert pops up saying otherwise.
+
+
+## Version 3.0.4 - 1/8/2019
 ###Fixed
 -alert error when picking date.
 >>upon picking a date that was in a week that included days of the next month, an alert pops up preventing the selection of date.
@@ -47,4 +53,4 @@ All notable changes to this project will be documented in this file.
 ## Version 1
 >Let there be light.
 
-[Version 3.0.4 - 1/8/2019 (Current)]: https://github.com/Hantasmagoria/mcojn/blob/master/src/source.js
+[Version 3.0.5 - 5/8/2019 (current)]: https://github.com/Hantasmagoria/mcojn/blob/master/src/source.js
