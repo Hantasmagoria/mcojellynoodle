@@ -1,11 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Version 3.0.5 - 5/8/2019 (current)]
+## [Version 3.0.6 - 6/8/2019 (current)]
+###Minor feature implementations:
+>>Toggle between calendar and bookings display using the Bookings button.
+
+## Version 3.0.5 - 5/8/2019
 ###Fixed
 -system not accepting proper date values.
 >>upon picking a date that was in a week that is supposed to be valid, an alert pops up saying otherwise.
-
 
 ## Version 3.0.4 - 1/8/2019
 ###Fixed
@@ -53,4 +56,4 @@ All notable changes to this project will be documented in this file.
 ## Version 1
 >Let there be light.
 
-[Version 3.0.5 - 5/8/2019 (current)]: https://github.com/Hantasmagoria/mcojn/blob/master/src/source.js
+[Version 3.0.6 - 6/8/2019 (current)]: src/source.js
