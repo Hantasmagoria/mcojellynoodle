@@ -44,7 +44,6 @@ Future developments will still be continued unless otherwise specified.
 
 >Planned features:
 ```bash
--disable focus on the buttons so that navigating through facilities would be easier
 -Make the design prettier?
 ```
 
