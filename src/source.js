@@ -115,6 +115,7 @@ function reformatdisplay() {
       document.getElementsByClassName("calendar")[0].innerHTML = cal;
       q=false;
     }
+    document.getElementById("inputFacilityName").focus()
 }
 
 //Create a new element to contain the buttons.
@@ -128,6 +129,7 @@ rdb.setAttribute('class', "fbutton");
 var rid = document.createElement('button');
 rid.setAttribute('class', "button2 btn");
 rid.setAttribute('onclick', "reinitializedate()");
+rid.setAttribute('id', "dapeTicker");
 rid.innerHTML = "Pick a Date";
 
 rdb.appendChild(rid);
@@ -140,6 +142,7 @@ srb.setAttribute('class', "fbutton");
 var rfd = document.createElement('button');
 rfd.setAttribute('class', "button2 btn");
 rfd.setAttribute('onclick', "reformatdisplay()");
+rfd.setAttribute('id', "quantumFacibrator");
 rfd.innerHTML = "Bookings";
 
 srb.appendChild(rfd);
@@ -148,7 +151,7 @@ srb.appendChild(rfd);
 //Insert buttons to container created at the start(after initialization).
 cheytan.appendChild(rdb);
 cheytan.appendChild(srb);
-//TODO: Debug css (positioning)
+//TODO: Debug css
 
 //Add the whole thing to the website live, conditionally.
 if(state == null || state == 0){document.getElementById("caltoolbar").querySelector('.clear').parentNode.insertBefore(cheytan, document.getElementById("caltoolbar").firstElementChild.lastElementChild);
