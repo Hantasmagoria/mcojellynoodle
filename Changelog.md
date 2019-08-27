@@ -1,7 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [Version 3.0.6 - 6/8/2019 (current)]
+## [Version 3.0.7 - 27/8/2019 (current)]
+###Fixed
+-alert error when picking date.
+>>upon picking a date that was in a week that included days of the next month, an alert pops up preventing the selection of date.
+
+## Version 3.0.6 - 6/8/2019
 ###Minor feature implementations:
 >>Toggle between calendar and bookings display using the Bookings button.
 
@@ -56,4 +61,4 @@ All notable changes to this project will be documented in this file.
 ## Version 1
 >Let there be light.
 
-[Version 3.0.6 - 6/8/2019 (current)]: src/source.js
+[Version 3.0.7 - 27/8/2019 (current)]: src/source.js
