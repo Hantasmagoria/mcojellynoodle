@@ -41,8 +41,8 @@ function reinitializedate() {
     var lastDay = parseInt(lookatTimeOfWeek[1][0] + lookatTimeOfWeek[1][1]);
     var firstMonth = lookatTimeOfWeek[0].split(" ")[1];
     var lastMonth = lookatTimeOfWeek[1].split(" ")[1];
-    var currentMonth = st.split(" ")[0];
-    var currentDay = parseInt(st.split(" ")[1][0] + st.split(" ")[1][1]);
+    var currentMonth = st.split(" ")[1];
+    var currentDay = parseInt(st.split(" ")[0][0] + st.split(" ")[0][1]);
     //comparison check to ensure the input date is within the week shown in calendar range.
       //this checks if end of week is in the next month.
     if (firstMonth != lastMonth) {
