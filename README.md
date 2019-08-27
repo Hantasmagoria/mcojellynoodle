@@ -14,7 +14,7 @@
 
 
 ## Current version: 
-  [3.0.6]
+  [3.0.7]
 ##  Installation
 <details><summary>Disclaimer</summary><p>As of now, the only 'permanent' way to install the script is to save the script directly into the browser.
 Currently the script can only be 'installed' in chrome(as far as we know), without implementing any third-party software or browser extensions. Testing has not been done on any other browsers.</p></details>
@@ -73,5 +73,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 
-[3.0.6]: index.js
+[3.0.7]: index.js
 
