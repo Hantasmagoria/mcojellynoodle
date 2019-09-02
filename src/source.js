@@ -21,6 +21,7 @@ function reinitializedate() {
     //when user hits cancel.
     if (date == null) {
         alert("no date selected.");
+	//console.log("User hit cancel.");
         return;
     }
     //parse the input date into a format recognizable by the script.
@@ -34,7 +35,7 @@ function reinitializedate() {
         day: 'numeric',
         month: 'short',
         year: 'numeric'
-    });
+    });console.log(`Parsed date = ${st}.`);
     //sample = 05 Aug 2019 - 11 Aug 2019 || 27 Aug 2019 - 03 Sep 2019
     var lookatTimeOfWeek = document.getElementById("txtdatetimeshow").textContent.split(" - ");
     var firstDay = parseInt(lookatTimeOfWeek[0][0] + lookatTimeOfWeek[0][1]);
@@ -48,19 +49,22 @@ function reinitializedate() {
     if (firstMonth != lastMonth) {
         if (currentDay > lastDay && currentDay < firstDay) {
             alert("date selected not within the current week.");
+	    console.log(`${currentDay} > ${lastDay} && ${currentDay} < ${firstDay}`);
             return;
         }
     }
       //this checks if end of week is within current month.
     if (firstMonth == lastMonth) {
-        if (currentDay > firstDay || currentDay < lastDay) {
+        if (currentDay < firstDay || currentDay > lastDay) {
             alert("date selected not within the current week.");
+	    console.log(`${currentDay} > ${firstDay} || ${currentDay} < ${lastDay}`);
             return;
         }
     }
       //this checks if the input month was even in the calendar range.
     if (currentMonth != firstMonth && currentMonth != lastMonth) {
       alert("date selected not within the current week.");
+      console.log(`${currentMonth} != ${firstMonth} && ${currentMonth} != ${lastMonth}`);
       return;
     }
 }
